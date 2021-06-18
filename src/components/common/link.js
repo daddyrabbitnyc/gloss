@@ -5,7 +5,7 @@ const Link = props => {
   const { children } = props;
   const [css, theme] = useStyletron();
   const decor = css({
-    color: theme.colors.primaryA,
+    color: theme.colors.primaryB,
     textDecoration: 'none',
   });
   return (

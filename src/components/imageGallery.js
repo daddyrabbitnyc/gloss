@@ -23,7 +23,6 @@ const ImageGallery = () => {
         edges {
           node {
             id
-            caption
             localFile {
               childImageSharp {
                 fluid {
@@ -41,15 +40,14 @@ const ImageGallery = () => {
     const images = edges.map(({ node }) => {
       const {
         id,
-        caption,
         localFile: { childImageSharp },
       } = node;
       return (
         <FlexGridItem key={id} flexGridItemIndex={id}>
-          <a href={`${nodeURL}/${id}`}>
+          <a href={`#signup`}>
             <Image
               loading="lazy"
-              alt={caption || ''}
+              alt={'Image'}
               fluid={childImageSharp.fluid}
             />
           </a>

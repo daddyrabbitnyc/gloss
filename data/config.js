@@ -11,7 +11,7 @@ module.exports = {
   // Favicon that will display on browsers.
   logo: 'static/images/favicon.png',
   // Who made this website?
-  author: 'Daddy Rabbot',
+  author: 'Daddy Rabbit',
   // What's the website of the author?
   authorUrl: 'https://www.daddyrabbitnyc.com',
   // Your social media presence, in the form of usernames.
@@ -31,7 +31,7 @@ module.exports = {
   // If applicable, your Google Analytics crawl ID.
   // googleAnalyticsId: 'UA-XXXXXXXX-X',
   // Colours that represent your website.
-  themeColor: '#000',
+  themeColor: '#FFF',
   backgroundColor: '#000',
   // No more information than City + Country due to privacy concerns.
   address: {
