@@ -7,24 +7,24 @@ module.exports = {
   // Your legal name.
   legalName: 'Daddy Rabbit',
   // URL to this website. If you bought `www.domain.com`, then it will be `www.domain.com`.
-  url: 'https://www.daddyrabbit.com',
+  url: 'https://www.daddyrabbitnyc.com',
   // Favicon that will display on browsers.
   logo: 'static/images/favicon.png',
   // Who made this website?
   author: 'Daddy Rabbot',
   // What's the website of the author?
-  authorUrl: 'https://www.daddyrabbit.com',
+  authorUrl: 'https://www.daddyrabbitnyc.com',
   // Your social media presence, in the form of usernames.
   social: {
     // tells the Instagram API the username to get posts from.
     // If the url is `https://www.instagram.com/natgeotravel`, your username is `natgeotravel`.
-    instagram: 'daddyrabbit',
+    instagram: 'daddyrabbitnyc',
     // Optional
     // twitter: '@NatGeoTravel',
   },
   socialLinks: {
     // Complete URL verison of `social.instagram`.
-    instagram: 'https://www.instagram.com/daddyrabbit',
+    instagram: 'https://www.instagram.com/daddyrabbitnyc',
     // Optional
     // twitter: 'https://twitter.com/NatGeoTravel',
   },
