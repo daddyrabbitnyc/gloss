@@ -1,12 +1,7 @@
 {
-  "name": "gatsby-starter-instagram-baseweb",
-  "description": "A lightweight, minimalist Gatsby starter for creating Instagram-based portfolios",
+  "name": "gloss",
+  "description": "Hey",
   "version": "0.1.0",
-  "author": {
-    "name": "Juan Alejandro Morais",
-    "email": "timrodz@icloud.com",
-    "url": "https://timrodz.com"
-  },
   "dependencies": {
     "baseui": "^9.50.0",
     "gatsby": "^2.18.12",
@@ -54,16 +49,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "debploy": "gatsby build && gh-pages -d public"
   },
-  "license": "MIT",
-  "homepage": "https://github.com/timrodz/gatsby-starter-instagram-baseweb/blob/master/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/timrodz/gatsby-starter-instagram-baseweb.git"
-  },
-  "bugs": {
-    "url": "https://github.com/timrodz/gatsby-starter-instagram-baseweb/issues",
-    "email": "timrodz@icloud.com"
-  }
+  "license": "UNLICENSED",
+  "private": "true"
 }
